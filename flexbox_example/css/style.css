@@ -1,0 +1,20 @@
+/* Flex container 설정 */
+.box1 {
+    display: flex;  /* Flexbox 활성화 */
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Flex item(flex container의 children) 스타일 */
+.box1 div, .box2 div {
+    background-color: #b5d8ed;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    border: 2px solid rgb(44, 38, 150);
+    border-radius: 10px;
+}
+  
